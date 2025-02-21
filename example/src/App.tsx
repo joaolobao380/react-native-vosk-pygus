@@ -12,7 +12,7 @@ export default function App(): JSX.Element {
 
   const load = useCallback(() => {
     vosk
-      .loadModel('model-fr-fr')
+      .loadModel('model-pt-br')
       // .loadModel('model-en-us')
       .then(() => setReady(true))
       .catch((e) => console.error(e));
